@@ -4,7 +4,8 @@
   "description": "number formatter test",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+  "test": "node_modules/.bin/mocha --reporter spec",
+  "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
   "homepage": "https://github.com/getvenu2884/number-formatter-2#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.11",
+    "istanbul": "^0.4.4",
     "mocha": "^2.5.3"
   }
 }

@@ -25,4 +25,4 @@ A small library that adds commas to numbers
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 
-testing version problem
+[![Build Status](https://travis-ci.org/getvenu2884/number-formatter-2.svg?branch=master)](https://travis-ci.org/getvenu2884/number-formatter-2)

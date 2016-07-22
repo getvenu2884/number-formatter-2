@@ -1,11 +1,11 @@
 {
   "name": "@getvenu2884/number-formatter-2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "number formatter test",
   "main": "index.js",
   "scripts": {
-  "test": "node_modules/.bin/mocha --reporter spec",
-  "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
